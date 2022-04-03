@@ -3,19 +3,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Black people', //Will appear in the data.
+		    name : 'Americans', //Will appear in the data.
 		    title : {
-		      media : {word : 'Black people'}, //Name of the category presented in the task.
+		      media : {word : 'Americans'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    		    	{word : 'amr1.png'}, 
+    			{word : 'amr2.png'}, 
+    			{word : 'amr3.png'}, 
+    			{word : 'amr4.png'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -23,45 +21,41 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 
   		attribute1 : 
 			{
-			name : 'Unpleasant', //Attribute label
+			name : 'Republican', //Attribute label
 			title : {
-				media : {word : 'Negative'}, //Name of the category presented in the task.
+				media : {word : 'Republican'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Bomb'},
-				{word: 'Abuse'},
-				{word: 'Sadness'},
-				{word: 'Pain'},
-				{word: 'Poison'},
-				{word: 'Grief'}
+				{word : 'rep1.png'},
+				{word : 'rep2.png'},
+				{word : 'rep3.png'},
+				{word : 'rep4.png'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 		attribute2 : 
 			{
-			name : 'Pleasant', //Attribute label
+			name : 'Democrats', //Attribute label
 			title : {
-				media : {word : 'Positive'}, //Name of the category presented in the task.
+				media : {word : 'Democarats'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Paradise'},
-				{word: 'Pleasure'},
-				{word: 'Cheer'},
-				{word: 'Wonderful'},
-				{word: 'Splendid'},
-				{word: 'Love'}
+				{word : 'dem1.png'},
+				{word : 'dem2.png'},
+				{word : 'dem3.png'},
+				{word : 'dem4.png'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 
   base_url : {//Where are your images at?
-    image : 'https://baranan.github.io/minno-tasks/images/'
+    image : 'https://sofibonch.github.io/ST-IAT/images/'
   }}
   );
   });
