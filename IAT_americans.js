@@ -45,10 +45,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word : 'dem1.png'},
-				{word : 'dem2.png'},
-				{word : 'dem3.png'},
-				{word : 'dem4.png'}
+				{image : 'dem1.png'},
+				{image : 'dem2.png'},
+				{image : 'dem3.png'},
+				{image : 'dem4.png'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
