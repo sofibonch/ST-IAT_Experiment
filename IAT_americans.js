@@ -19,7 +19,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		    css : {color:'#31b404','font-size':'3em'}
 		  },	
 
-  		attribute1 : 
+  		attribute2 : 
 			{
 			name : 'Republican', //Attribute label
 			title : {
@@ -36,11 +36,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
-		attribute2 : 
+		attribute1 : 
 			{
-			name : 'Democrats', //Attribute label
+			name : 'Democrat', //Attribute label
 			title : {
-				media : {word : 'Democarats'}, //Name of the category presented in the task.
+				media : {word : 'Democarat'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
