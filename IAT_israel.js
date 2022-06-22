@@ -3,17 +3,17 @@ define(['pipAPI', 'https://sofibonch.github.io/ST-IAT/try.js'], function(APICons
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Israel', //Will appear in the data.
+		    name : 'American', //Will appear in the data.
 		    title : {
-		      media : {word : 'ישראל'}, //Name of the category presented in the task.
+		      media : {word : 'American'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{image : 'isr1.png'}, 
-    			{image : 'isr2.png'}, 
-    			{image : 'isr3.png'}, 
-    			{image : 'isr4.png'}
+    		    	{image : 'amr1.png'}, 
+    			{image : 'amr2.png'}, 
+    			{image : 'amr3.png'}, 
+    			{image : 'amr4.png'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -21,41 +21,41 @@ define(['pipAPI', 'https://sofibonch.github.io/ST-IAT/try.js'], function(APICons
 
   		attribute2 : 
 			{
-			name : 'Right', //Attribute label
+			name : 'Republican', //Attribute label
 			title : {
-				media : {word : 'ימין'}, //Name of the category presented in the task.
+				media : {word : 'Republican'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{image : 'right1.png'},
-				{image : 'right2.png'},
-				{image : 'right3.png'},
-				{image : 'right4.png'}
+				{image : 'rep1.png'},
+				{image : 'rep2.png'},
+				{image : 'rep3.png'},
+				{image : 'rep4.png'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 		attribute1 : 
 			{
-			name : 'Left', //Attribute label
+			name : 'Democrat', //Attribute label
 			title : {
-				media : {word : 'שמאל'}, //Name of the category presented in the task.
+				media : {word : 'Democrat'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{image : 'left1.png'},
-				{image : 'left2.png'},
-				{image : 'left3.png'},
-				{image : 'left4.png'}
+				{image : 'dem1.png'},
+				{image : 'dem2.png'},
+				{image : 'dem3.png'},
+				{image : 'dem4.png'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 
   base_url : {//Where are your images at?
-    image : 'https://sofibonch.github.io/ST-IAT/imagesisr/'
+    image : 'https://sofibonch.github.io/ST-IAT/imagespol/'
   }}
   );
   });
