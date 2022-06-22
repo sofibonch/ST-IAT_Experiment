@@ -55,7 +55,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			},
 
   base_url : {//Where are your images at?
-    image : 'https://sofibonch.github.io/ST-IAT/imagespol/'
+    image : 'https://sofibonch.github.io/ST-IAT/images75/'
   }}
   );
   });
